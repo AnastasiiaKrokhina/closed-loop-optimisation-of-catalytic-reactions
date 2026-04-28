@@ -25,7 +25,7 @@ ligand concentration, residence time, and temperature.
 In the future I want to try to compute environment descriptors with real MD-derived descriptors.
 
 ##### Installation
-
+-------------------------
 Recommended fresh environment:
 
 ```bash
@@ -47,13 +47,18 @@ hf auth login
 ```
 
 ##### Example usage
+-------------------------
 Fast test:
 
+    ```
     python aqcat25_closed_loop_bo.py --split val_id --max-rows 2000 --n-candidates 5000
+    ```
 
 Larger run:
 
+    ```
     python aqcat25_closed_loop_bo.py --split train_id --max-rows 10000 --n-candidates 20000
+    ```
 
 ##### Outputs
 Creates an output folder with:
