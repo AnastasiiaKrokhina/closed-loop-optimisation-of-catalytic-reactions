@@ -18,8 +18,7 @@ Build a lightweight proof-of-concept workflow for _MD-informed closed-loop optim
 
 Important scientific note
 -------------------------
-AQCat25 contains DFT adsorption data, not explicit solvent/micelle/flow MD trajectories.
-Therefore, the MD part here is represented as coarse-grained MD-inspired descriptors:
+As AQCat25 contains DFT adsorption data, the MD part here is represented as coarse-grained MD-inspired descriptors:
 solvent polarity, viscosity proxy, diffusion proxy, aggregation proxy, catalyst-contact proxy,
 ligand concentration, residence time, and temperature.
 
