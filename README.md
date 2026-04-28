@@ -16,7 +16,7 @@ Build a lightweight proof-of-concept workflow for _MD-informed closed-loop optim
 4. Trains a surrogate model to predict adsorption energy.
 5. Uses an uncertainty-aware acquisition function to suggest new reaction conditions.
 
-Important scientific note
+##### Important scientific note
 -------------------------
 As AQCat25 contains DFT adsorption data, the MD part here is represented as coarse-grained MD-inspired descriptors:
 solvent polarity, viscosity proxy, diffusion proxy, aggregation proxy, catalyst-contact proxy,
@@ -64,5 +64,6 @@ Creates an output folder with:
     metrics.json
     optimisation_suggestions.csv
     parity_plot.png
-    acquisition_plot.png```
+    acquisition_plot.png
+```
 
